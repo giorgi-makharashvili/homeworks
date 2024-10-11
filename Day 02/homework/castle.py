@@ -1,6 +1,6 @@
 from turtle import *
 
-speed(80)
+speed(120)
 penup()
 goto(0,-300)
 pendown()
@@ -434,6 +434,40 @@ forward(50)
 right(90)
 forward(15)
 end_fill()
+
+
+penup()
+goto(0,-300)
+pendown()
+begin_fill()
+color("green")
+forward(80)
+left(90)
+forward(10)
+right(90)
+forward(100)
+right(90)
+forward(10)
+left(90)
+forward(220)
+right(90)
+forward(100)
+right(90)
+forward(800)
+right(90)
+forward(100)
+right(90)
+forward(220)
+left(90)
+forward(10)
+right(90)
+forward(100)
+right(90)
+forward(10)
+left(90)
+forward(80)
+end_fill()
+
 
 
 
