@@ -48,7 +48,7 @@ while passw != correct_pass or user != correct_user :
     user = input("enter username")
 print("username and password is correct")   
 
-#10)
+#10).
 number = int(input("enter number : "))
 factorial = 1
 i = number
