@@ -43,7 +43,7 @@ correct_user = "gio"
 
 passw = input("enter password")
 user = input("enter username")
-while passw != correct_pass and user != correct_user :
+while passw != correct_pass or user != correct_user :
     passw = input("enter password")
     user = input("enter username")
 print("username and password is correct")   
