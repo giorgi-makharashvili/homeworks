@@ -10,9 +10,9 @@ list1 = ["a","b","c","d","e","f","g","h","i","j"]
 num1 = int(input("enter number: "))
 num2 = int(input("enter number: "))
 if num1 > num2:
-    print(list1[num1:num2])
+    print(list1[num2:num1])
 elif num2 > num1:
-    print(list1[-num2:-num1])
+    print(list1[-num1:-num2])
 else:
     print([])
 
