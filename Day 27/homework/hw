@@ -1,0 +1,8 @@
+2) ნაჩვენებია ნახაზზე
+3)დეკლარაცია-სტილის მინიჭება.
+კუთვნილება-მათი საშუალებით მივუთითებთ თუ რა უნდა შევცვალოთ. მაგ: background_color
+მნიშვნელობა-ვუწერთ კუთვნილებას მაგალითად color:red
+css rule-CSS rule consists of a selector and a declaration block
+selector-მაგალითად: p is a selector in CSS
+css inheritance- The inherit keyword specifies that a property should inherit its value from its parent element
+descendant selector- The descendant combinator matches all elements that are descendants of a specified element.
