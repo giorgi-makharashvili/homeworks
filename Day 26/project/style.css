@@ -1,3 +1,9 @@
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {
     position: relative;
     margin: 0;
@@ -139,7 +145,7 @@ a{
 }
 
 a:hover, a:active {
-    color: rgb(255, 213, 0);
+    color:gold;
 }
 
 
@@ -164,7 +170,7 @@ footer {
 }
 
 .social-media a:hover {
-    color: rgb(255, 213, 0);
+    color: gold;
 }
 
 button{
@@ -175,7 +181,7 @@ button{
 }
 
 button:hover, button:active{
-    color: rgb(255, 213, 0);
+    color:gold;
 }
 
 tr:hover {
