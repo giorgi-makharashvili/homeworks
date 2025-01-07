@@ -29,6 +29,8 @@ a{
 
 #table, th, td{
     border: 2px solid;
+    text-align: center;
+    
     
 }
 
@@ -38,6 +40,8 @@ a{
     align-items: center;
     justify-content: space-between;
     margin: 50px 0 50px 0;
+    border: 4px black solid;
+    background-color: rgb(16,16,16);
 
 }
 
@@ -64,6 +68,8 @@ img{
     align-items: center;
     justify-content: space-between;
     margin: 50px 0 50px 0;
+    border: 4px black solid;
+    background-color: rgb(24,24,24);
 
 }
 
@@ -86,6 +92,8 @@ img{
     align-items: center;
     justify-content: space-between;
     margin: 50px 0 50px 0;
+    border: 4px black solid;
+    background-color: rgb(32,32,32);
 
 }
 
@@ -108,6 +116,8 @@ img{
     align-items: center;
     justify-content: space-between;
     margin: 50px 0 50px 0;
+    border: 4px black solid;
+    background-color: rgb(40,40,40);
 
 }
 
@@ -157,4 +167,21 @@ footer {
     color: rgb(255, 213, 0);
 }
 
+button{
+    max-width: 30%;
+    border: radius 20px;
+    background-color: black;
+    
+}
 
+button:hover, button:active{
+    color: rgb(255, 213, 0);
+}
+
+tr:hover {
+    background-color:grey ;
+}
+
+th{
+    background-color:black;
+}
