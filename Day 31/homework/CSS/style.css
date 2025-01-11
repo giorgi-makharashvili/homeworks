@@ -1,0 +1,34 @@
+#a:link{
+    text-decoration: none;
+    color: gray;
+    background-color: black;
+    
+}
+
+#a:hover{
+    background-color: rgb(50, 50, 50);
+}
+
+#b:link{
+    text-decoration: none;
+    color: gold;
+    background-color: aqua;
+    
+}
+
+#b:hover{
+    background-color: rgb(3, 139, 139);
+}
+
+button{
+    border: none;
+    color: black;
+    background-color: gray;
+    border-radius: 14px;
+    width: 120px;
+    height: 28px;
+}
+
+button:hover{
+    background-color: rgb(48, 47, 47);
+}

@@ -1,0 +1,29 @@
+
+a:hover{
+    color: gold;
+    text-decoration: underline;
+
+}
+
+a:link{
+    color: aqua;
+    text-decoration: none;
+
+}
+
+a:visited{
+    background-color: aqua;
+}
+
+button{
+    border: none;
+    color: black;
+    background-color: blueviolet;
+    border-radius: 14px;
+    width: 120px;
+    height: 28px;
+}
+
+button:hover{
+    background-color: rgb(159, 91, 222);
+}
