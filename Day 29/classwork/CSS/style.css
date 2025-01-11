@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+#a{
+    text-decoration:overline dotted;
+}
+
+#a1{
+    text-decoration: line-through double;
+}
+
+#a2{
+    text-decoration: underline wavy;
+}
+
+#a3{
+    text-decoration: line-through solid;
+}
+
+#a4{
+    text-decoration: overline dashed;
+}
+
+h1{
+    font-family:Pacifico, sans-serif ;
+}
