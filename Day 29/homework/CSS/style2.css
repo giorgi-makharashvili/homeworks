@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(2, 2, 72);
+}
+
+h1{
+    text-align: center;
+    color: gold;
+    font-size: xx-large;
+
+}
+
+#c1{
+    color: darkblue;
+}
+
+#c2{
+    color: darkred;
+}
+
+#c3{
+    color: darkblue;
+}
+
+#c4{
+    color: darkred;
+}
+
+#c5{
+    color: darkblue;
+}
+
+p{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: overline wavy gold;  
+}
+
+div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+img{
+    border-radius: 20px;
+}
+
