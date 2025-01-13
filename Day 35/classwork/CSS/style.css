@@ -1,0 +1,50 @@
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
+tr:nth-child(odd){
+    background-color: gray;
+    
+}
+
+th{
+    background-color: gold;
+}
+
+
+ol{
+    list-style-position:inside;
+    list-style-type: upper-latin;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#a{
+    width: 100px;
+}
+
+#b{
+    width: 150px;
+
+}
+
+#c{
+    width: 80px;
+    
+}
+
+#d{
+    width: 700px;
+    
+}
+
+div{
+    background-color: yellow;
+    width: 500px;
+    height: 500px;
+    border-radius: 50px 250px 50px 250px;
+}
