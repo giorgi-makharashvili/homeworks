@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 500px;
+    height: 65vh;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+
+}
+
+.upper{
+    width: 85%;
+    height: 37vh;
+    background-image: url("../images/image-qr-code.png");
+    background-size: contain;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+
+
+.bottom{
+    width: 80%;
+    height:28vh ;
+    text-align: center;
+
+
+
+}
+
+h1{
+    font-size: 40px;
+    color: hsl(218, 44%, 22%);
+    padding: 30px;
+    
+}
+
+p{
+    font-size:20px ;
+    color:hsl(216, 15%, 48%) ;
+}
+

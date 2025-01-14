@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 1500px;
+    height: 55vh;
+    border-radius: 15px;
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    align-items: center;
+}
+
+.left{
+    height: 100%;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.right{
+    
+    width: 700px;
+    height: 100%;
+    background-image: url("../stats-preview-card-component-main/images/image-header-desktop.jpg");
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(110, 27, 138, 0.59);
+    border-radius: 0px 15px 15px 0px;
+}
+
+.info{
+    padding: 40px;
+    
+}
+
+h1{
+    font-family: Inter;
+    font-size:60px ;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 40px;
+}
+
+#p1{
+    font-family: Inter;
+    font-size: 23px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+b{
+    color: hsl(277, 64%, 61%);
+}
+
+.first, .second, .third{
+    width:100px ;
+    height: 100px;
+    margin-right: 100px;
+}
+
+.all3{
+    display: flex;
+    margin-top: 50px;
+}
+
+#c1, #c3, #c5{
+    font-family: Inter;
+    color:  hsl(0, 0%, 100%);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#c2, #c4, #c6{
+    font-family: Inter;
+    color:  hsla(0, 0%, 100%, 0.6);
+    font-size: 25px;
+    font-weight: 500;
+}
