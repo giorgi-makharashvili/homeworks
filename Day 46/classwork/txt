@@ -1,0 +1,13 @@
+1) list:
+1. pop, append, item assignment, mutable
+2. შეგვიძლია შევინახოთ ნებისმიერი მონაცემთა ტიპი როგორც ელემენტი
+3. slicing, indexing, have indexes
+ tuple:
+1. immutable
+2. შეგვიძლია შევინახოთ ნებისმიერი მონაცემთა ტიპი როგორც ელემენტი
+3. slicing, indexing, have indexes
+1. remove, add, mutable
+ set:
+2. შეგვიძლია შევინახოთ ნებისმიერი მონაცემთა ტიპი როგორც ელემენტი
+3. no slicing, no indexing, do not have indexes
+4. set ს არ აქვს დუპლიკატები
