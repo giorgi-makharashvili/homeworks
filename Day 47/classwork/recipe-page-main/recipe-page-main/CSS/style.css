@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: 'Outfit';
+    background-color: hsl(30, 54%, 90%);
+    padding: 30px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    line-height: 1.6;
+}
+  
+.ingredients,
+.preparation-section{
+    margin-top: 1.4rem;
+}
+  
+  .paragraph,
+  .ingredients,
+  .instructions,
+  .instructions li span,
+  .preparation-section,
+  .preparation-section li span,
+  .nutrition-section,
+  .gram {
+    color: hsl(30, 10%, 34%);
+  }
+  
+  .container {
+    background-color:  hsl(0, 0%, 100%);
+    padding: 2.2rem;
+    margin: auto;
+    max-width: 48rem;
+    border-radius: 0.7rem;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    border-radius: 0.6rem;
+  }
+  
+  .title {
+    font-family: 'Young Serif', serif;
+    margin-top: 1.8rem;
+    letter-spacing: 0.2rem;
+    color: hsl(24, 5%, 18%);
+
+  }
+  
+  .paragraph {
+    font-weight: bold;
+    margin-top: 1rem;
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  
+  .preparation-section {
+    font-family: 'Outfit', sans-serif;
+    background: hsl(330, 100%, 98%);
+    padding: 2.5rem;
+    border-radius: 0.6rem;
+  }
+  
+  .preparation-section h3 {
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .preparation-section li span {
+    font-weight: bold;
+  }
+  
+  .ingredients h2,
+  .instructions h2,
+  .nutrition-section h2 {
+    letter-spacing: 4px;
+    color: hsl(14, 45%, 36%);
+  }
+  
+  ul li,
+  ol li {
+    padding-left: 1rem;
+  }
+  
+  li::marker {
+    color: hsl(14, 45%, 36%);
+  }
+  
+  .ingredients,
+  .instructions {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 2rem;
+  }
+  
+  
+  .instructions {
+    font-size: 1rem;
+  }
+  
+  .instructions ol li span {
+    font-weight: bold;
+  }
+  
+  .nutrition-section {
+    margin-top: 1.6rem;
+  }
+  
+  .table {
+    width: 100%;
+    margin: 1.6rem;
+  }
+  
+  th,
+  td {
+    padding: 0.6rem;
+    text-align: left;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+  }
+  
+  th {
+    color:hsl(14, 45%, 36%);;
+  }
+  
