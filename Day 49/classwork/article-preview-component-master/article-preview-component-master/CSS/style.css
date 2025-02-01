@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Manrope;
+}
+
+body{
+    height: 100vh;
+    background-color: hsl(212, 23%, 69%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width:1000px ;
+    height: 50vh;
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    box-shadow: 5px 0px 10px hsl(214, 17%, 51%);
+}
+
+.left{
+    width:40%;
+    height: 100%;
+    background-image: url("../images/drawers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 38px;
+}
+
+h2{
+    color: hsl(217, 19%, 35%);
+    line-height: 1.2;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.up p{
+    color: hsl(214, 17%, 51%);
+    line-height: 1.3;
+}
+
+.pfptxt{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#pfp1{
+    width: 10%;
+    border-radius: 50%;
+    margin-right: 15px;
+
+}
+
+.withpfp{
+    display: flex;
+    align-items: center;
+}
+
+.bottom{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.up{
+    width: 100%;
+    height: 30vh;
+}
+
+#icon{
+    width: 20px;
+    height: auto;
+}
